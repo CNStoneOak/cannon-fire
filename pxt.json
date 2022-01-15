@@ -3,7 +3,8 @@
     "description": "",
     "dependencies": {
         "device": "*",
-        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.2.4"
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.2.4",
+        "small-tilemaps": "github:riknoll/small-tilemaps#v0.0.1"
     },
     "files": [
         "main.blocks",

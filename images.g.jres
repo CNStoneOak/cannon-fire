@@ -19,15 +19,40 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Cannon"
     },
-    "image5": {
-        "data": "hwQQABAAAADu7g4AAAAAAB7uDgAAAAAA7u4OAAAAAADuHg4AAAAAAO7uDgAAAAAAHu4OAAAAAADu7g4AAAAAAO4eDgAAAAAA7u4OAAAAAAAe7g4AAAAAAO7uDgAAAAAA7h4OAAAAAADu7g4AAAAAAB7uDgAAAAAA7u4OAAAAAADu7g4AAAAAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "displayName": "Brown Bricks"
-    },
     "image6": {
         "data": "hwQQABAAAACIiIiIiIiIAIiIiIiIiIgAiIiIiIiIiACIiIiIiIiIAIiIiIiIiIgAiIgIAAAAAACIiAgAAAAAAIiICAAAAAAAiIgIAAAAAACIiAgAAAAAAIiICAAAAAAAiIgIAAAAAACIiAgAAAAAAIiICAAAAAAAiIgIAAAAAACIiAgAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "displayName": "Blue Bricks"
+    },
+    "image5": {
+        "data": "hwQQABAAAADu7g4AAAAAAB7uDgAAAAAA7u4OAAAAAADuHg4AAAAAAO7uDgAAAAAAHu4OAAAAAADu7g4AAAAAAO4eDgAAAAAA7u4OAAAAAAAe7g4AAAAAAO7uDgAAAAAA7h4OAAAAAADu7g4AAAAAAB7uDgAAAAAA7u4OAAAAAADu7g4AAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Brown Brick"
+    },
+    "image8": {
+        "data": "hwQQABAAAACIiAgAAAAAABiICAAAAAAAiIgIAAAAAACIGAgAAAAAAIiICAAAAAAAGIgIAAAAAACIiAgAAAAAAIgYCAAAAAAAiIgIAAAAAAAYiAgAAAAAAIiICAAAAAAAiBgIAAAAAACIiAgAAAAAABiICAAAAAAAiIgIAAAAAACIiAgAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Blue Brick"
+    },
+    "image9": {
+        "data": "hwQQABAAAACqqgoAAAAAABqqCgAAAAAAqqoKAAAAAACqGgoAAAAAAKqqCgAAAAAAGqoKAAAAAACqqgoAAAAAAKoaCgAAAAAAqqoKAAAAAAAaqgoAAAAAAKqqCgAAAAAAqhoKAAAAAACqqgoAAAAAABqqCgAAAAAAqqoKAAAAAACqqgoAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Purple Brick"
+    },
+    "image7": {
+        "data": "hwQQABAAAAAiIgIAAAAAABIiAgAAAAAAIiICAAAAAAAiEgIAAAAAACIiAgAAAAAAEiICAAAAAAAiIgIAAAAAACISAgAAAAAAIiICAAAAAAASIgIAAAAAACIiAgAAAAAAIhICAAAAAAAiIgIAAAAAABIiAgAAAAAAIiICAAAAAAAiIgIAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Red Brick"
+    },
+    "image10": {
+        "data": "hwQQABAAAAB3dwcAAAAAABd3BwAAAAAAd3cHAAAAAAB3FwcAAAAAAHd3BwAAAAAAF3cHAAAAAAB3dwcAAAAAAHcXBwAAAAAAd3cHAAAAAAAXdwcAAAAAAHd3BwAAAAAAdxcHAAAAAAB3dwcAAAAAABd3BwAAAAAAd3cHAAAAAAB3dwcAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Green Brick"
+    },
+    "image11": {
+        "data": "hwQQABAAAABERAQAAAAAABREBAAAAAAAREQEAAAAAABEFAQAAAAAAEREBAAAAAAAFEQEAAAAAABERAQAAAAAAEQUBAAAAAAAREQEAAAAAAAURAQAAAAAAEREBAAAAAAARBQEAAAAAABERAQAAAAAABREBAAAAAAAREQEAAAAAABERAQAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Orange Brick"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",

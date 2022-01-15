@@ -1,6 +1,9 @@
 namespace SpriteKind {
     export const Brick = SpriteKind.create()
 }
+sprites.onOverlap(SpriteKind.Brick, SpriteKind.Brick, function (sprite, otherSprite) {
+    sprite.destroy()
+})
 function checkCollisions () {
     if (cannonBall.isHittingTile(CollisionDirection.Bottom)) {
         cannonBall.destroy()
@@ -24,12 +27,16 @@ function cannonFire () {
     myCannon
     )
 }
+scene.onHitWall(SpriteKind.Projectile, function (sprite, location) {
+    sprite.startEffect(effects.fire, 200)
+})
 function createRow () {
     for (let index = 0; index <= 3; index++) {
         visuals = brickVisual[randint(0, brickVisual.length - 1)]
         bricks = sprites.create(visuals, SpriteKind.Brick)
         tiles.placeOnRandomTile(bricks, assets.tile`transparency16`)
     }
+    brickSpawn = sprites.allOfKind(SpriteKind.Brick)
 }
 function Initialize () {
     tiles.setTilemap(tilemap`Ground`)
@@ -161,12 +168,20 @@ function Initialize () {
     myCannon.setPosition(80, 110)
     cannonAim.setPosition(80, 90)
     fireRate = 5
-    brickVisual = [assets.image`Brown Bricks`, assets.image`Blue Bricks`]
+    brickVisual = [
+    assets.image`Brown Brick`,
+    assets.image`Blue Brick`,
+    assets.image`Purple Brick`,
+    assets.image`Red Brick`,
+    assets.image`Green Brick`,
+    assets.image`Orange Brick`
+    ]
     createRow()
 }
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Brick, function (sprite, otherSprite) {
     otherSprite.destroy()
 })
+let brickSpawn: Sprite[] = []
 let bricks: Sprite = null
 let brickVisual: Image[] = []
 let visuals: Image = null
